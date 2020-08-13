@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Facebook</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- facebook header -->
+    <div class="header_wrapper">
+        <div class="header">
+            <!-- facebook logo -->
+            <div><img src="https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/gf6iHxsw8zm.png" alt="" srcset=""></div>
+            <div>
+
+                <!-- email and phone to login -->
+                <div>
+                    <div>Email or phone</div>
+                    <div><input type="text"></div>
+                </div>
+                <!-- password to login -->
+                <div>
+                    <div>Password</div>
+                    <div><input type="text"></div>
+                    <div>Forgotten account?</div>
+                </div>
+                <!-- login button -->
+                <div>
+                    <button>Log In</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- facebook body -->
+    <div class="body_wrapper">
+        <div class="body">
+            <!-- left body section -->
+            <div>
+                <!-- recent logins -->
+                <div>
+                    <div>Recent logins</div>
+                    <div>Click your picture or add an account.</div>
+                </div>
+
+                <div>
+                    <!-- saved account -->
+                    <div class="saved_account">
+                        <div><img
+                                src="https://scontent.fpat3-1.fna.fbcdn.net/v/t1.0-1/c0.0.960.960a/92458149_532908150761806_3535107372823347200_o.jpg?_nc_cat=107&_nc_sid=dbb9e7&_nc_ohc=r4AaYoP_LF4AX-sOhZv&_nc_ht=scontent.fpat3-1.fna&oh=2dd4b84cd3723804d46cc242e9b0fe54&oe=5F56C4CC"
+                                alt="" srcset=""></div>
+                        <div>Rima Shalu</div>
+                        <div style="visibility: hidden;" class="notification">2</div>
+                        <div class="remove_account">x</div>
+                    </div>
+
+                    <div class="saved_account">
+                        <div><img
+                                src="https://scontent.fpat3-1.fna.fbcdn.net/v/t1.0-1/90744479_533554990876025_2320984199156203520_n.jpg?_nc_cat=103&_nc_sid=dbb9e7&_nc_ohc=6o_1-oeWxVgAX9rzEf4&_nc_ht=scontent.fpat3-1.fna&oh=f619e9c57db7c49344a004e50ea86a2b&oe=5F566C4E"
+                                alt="" srcset=""></div>
+                        <div>Prasenjeet</div>
+                        <div class="notification">2</div>
+                        <div class="remove_account">x</div>
+                    </div>
+
+                    <div class="saved_account">
+                        <div><img src="../src/assets/Annotation 2020-08-11 150550.png" alt="" srcset=""></div>
+                        <div style="color: blue;">Add Account</div>
+                        <div style="visibility: hidden;" class="notification">2</div>
+                        <div style="visibility: hidden;" class="remove_account">x</div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- right body section -->
+            <div>
+
+                <div>
+                    <div>Create a new account</div>
+                    <div>It's quick and easy.</div>
+                </div>
+
+                <!--  sign up forms inputs -->
+                <div class="sign_up_forms_input">
+                    <div>
+                        <div>
+                            <input id="first_name_input" placeholder="First name" type="text">
+                            <div id="error_icon_first_name_button" class="error_icon">
+                                <img src="../src/assets/Annotation 2020-08-11 150522.png" alt="" srcset="">
+                            </div>
+                            <div id="error_info_first_name" class="error_info_first_name">What's your name?</div>
+                        </div>
+                        <div>
+                            <input id="surname_input" placeholder="Surname" type="text">
+                            <div id="error_button_surname" class="error_icon">
+                                <img src="../src/assets/Annotation 2020-08-11 150522.png" alt="" srcset="">
+                            </div>
+                            <div id="error_info_surname" class="error_info_surname">What's your name?</div>
+                        </div>
+                    </div>
+                    <div>
+                        <input id="mobile_input" placeholder="Mobile number or email address" type="text">
+                        <div id="error_button_mobile" class="error_icon">
+                            <img src="../src/assets/Annotation 2020-08-11 150522.png" alt="" srcset="">
+                        </div>
+                        <div id="error_info_mobile" class="error_info_mobile_and_email">
+                            You'll use this when you log in and if you ever need to reset your password.
+                        </div>
+                    </div>
+                    <div>
+                        <input id="password_input" placeholder="New password" type="text">
+                        <div id="error_button_password" class="error_icon">
+                            <img src="../src/assets/Annotation 2020-08-11 150522.png" alt="" srcset="">
+                        </div>
+                        <div id="error_info_password" class="error_info_password">
+                            Enter a combination of at least six numbers, letters and punctuation marks (such as ! and &)
+                        </div>
+                    </div>
+                </div>
+
+                <!--  choose date of birth -->
+                <div class="date_birth_chooser">
+                    <div>Date of birth</div>
+                    <div>
+                        <!-- day -->
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="12">11</option>
+                            <option value="12">12</option>
+                        </select>
+
+                        <!-- month -->
+                        <select name="" id="">
+                            <option value="Aug">Aug</option>
+                            <option value="Sep">Sep</option>
+                            <option value="Oct">Oct</option>
+                        </select>
+
+                        <!-- year -->
+                        <select name="" id="">
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                        </select>
+
+                        <div>
+                            <img id="date_of_birth_info_button" src="../src/assets/Annotation 2020-08-11 150611.png" alt="" srcset="">
+                            <div id="date_of_birth_info" class="date_of_birth_info">
+                                <div>Providing your date of birth helps make sure that you get the right Facebook experience for your age. If you want to change who sees this, go to the About section of your Profile. For more details, please visit our Data Policy.</div>
+                                <div><button id="date_of_birth_info_button_internal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- gender chooser -->
+                <div class="gender_chooser">
+
+                    <div>Gender</div>
+                    <div>
+                        <div><input type="radio" name="" id=""><span>Female</span></div>
+                        <div><input type="radio" name="" id=""><span>Male</span></div>
+                        <div><input type="radio" name="" id=""><span>Custom</span></div>
+                        <div>
+                            <img id="gender_info_button" src="../src/assets/Annotation 2020-08-11 150611.png" alt="" srcset="">
+                            <div id="gender_info" class="date_of_birth_info">
+                                <div>You can change who sees your gender on your profile later. Select Custom to choose another gender, or if you'd rather not say.</div>
+                                <div><button id="gender_info_button_internal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- privacy policy -->
+                <div class="privacy_policy">
+                    By clicking Sign Up, you agree to our <span>Terms, Data Policy</span> and <span>Cookie
+                        Policy.</span> You may receive SMS notifications from us and can opt out at any time.
+                </div>
+
+                <!-- signup_button -->
+                <div class="signup_button">
+                    <button>Sign Up</button>
+                </div>
+
+                <!-- create page -->
+                <div class="create_page">
+                    <span>Create a Page</span> for a celebrity, band or business.
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer_wrapper">
+        <div class="footer">
+            <div>
+                <span>English (UK)</span>
+                <span>हिन्दी</span>
+                <span>मराठी</span>
+                <span>اردو</span>
+                <span>ಕನ್ನಡ</span>
+                <span>മലയാളം</span>
+                <span>తెలుగు</span>
+                <span>தமிழ்</span>
+                <span>ગુજરાતી</span>
+                <span>বাংলা</span>
+                <span>ਪੰਜਾਬੀ</span>
+                <div>+</div>
+            </div>
+
+            <div>
+                <span>Sign Up</span>
+                <span>Log In</span>
+                <span>Messenger</span>
+                <span>Facebook Lite</span>
+                <span>Watch</span>
+                <span>People</span>
+                <span>Pages</span>
+                <span>Page categories</span>
+                <span>Places</span>
+                <span>Games</span>
+                <span>Locations</span>
+                <span>Marketplace</span>
+                <span>Facebook Pay</span>
+                <span>Groups</span>
+                <span>Oculus</span>
+                <span>Portal</span>
+                <span>Instagram</span>
+                <span>Local</span>
+                <span>Fundraisers</span>
+                <span>Services</span>
+                <span>About</span>
+                <span>Create</span>
+                <span>Settings</span>
+                <span>adCreate</span>
+                <span>Page</span>
+                <span>Developers</span>
+                <span>Careers</span>
+                <span>Privacy</span>
+                <span>Cookies</span>
+                <span>AdChoices</span>
+                <span>Terms</span>
+                <span>Help</span>
+            </div>
+
+            <div>Facebook © 2020</div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
